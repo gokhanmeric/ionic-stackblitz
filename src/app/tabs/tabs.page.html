@@ -1,0 +1,64 @@
+<!-- <ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="dashboard">
+      <ion-icon name="speedometer"></ion-icon>
+      <ion-label>Görevliste </ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="trending">
+      <ion-icon name="trending-up"></ion-icon>
+      <ion-label>Barkod Okut</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="trending">
+      <ion-icon name="trending-up"></ion-icon>
+      <ion-label>Barkod Okut</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>Harita</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="about">
+      <ion-icon name="information-circle"></ion-icon>
+      <ion-label>Elle Giriş</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs> --> 
+
+
+<ion-tabs>  
+
+  <ion-fab vertical="bottom" horizontal="center" translucent="true">
+    <ion-fab-button>
+      <ion-icon name="barcode-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <ion-tab-bar slot="bottom" class="ion-no-border">
+    <ion-tab-button tab="map">
+      <ion-icon name="map-outline"></ion-icon>
+      <ion-text>Harita</ion-text>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab-conversations" class="comments">
+      <ion-icon name="create-outline"></ion-icon>
+      <ion-text>Elle Giriş</ion-text>
+    <!-- <ion-badge>bbb</ion-badge> -->  
+    </ion-tab-button>
+
+    <svg height="50" viewBox="0 0 100 50" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M100 0v50H0V0c.543 27.153 22.72 49 50 49S99.457 27.153 99.99 0h.01z" fill="red" fill-rule="evenodd"></path></svg>
+
+    <ion-tab-button tab="dashboard" class="notifs">
+      <ion-icon name="albums-outline"></ion-icon>
+      <ion-badge >3</ion-badge>
+      <ion-text>Görev Liste</ion-text>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab-profile">
+      <ion-icon name="list-outline"></ion-icon>
+      <ion-text>İşlem Menü</ion-text>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

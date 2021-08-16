@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.017" height="17.017" viewBox="0 0 17.017 17.017">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_402" data-name="Rectangle 402" width="17.017" height="17.017" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="status-4" clip-path="url(#clip-path)">
+    <g id="Layer_32" data-name="Layer 32" transform="translate(0.519 0)">
+      <path id="Path_2170" data-name="Path 2170" d="M9.436,18.4A2.836,2.836,0,0,1,6.6,15.567a.567.567,0,1,1,1.134,0,1.7,1.7,0,0,0,.5,1.2,1.736,1.736,0,0,0,2.405,0,.57.57,0,0,1,.805.805A2.836,2.836,0,0,1,9.436,18.4Z" transform="translate(-1.427 -1.387)" fill="#40495c"/>
+      <path id="Path_2171" data-name="Path 2171" d="M9.567,3.436A.567.567,0,0,1,9,2.869v-1.7a.567.567,0,1,1,1.134,0v1.7A.567.567,0,0,1,9.567,3.436Z" transform="translate(-1.558 -0.6)" fill="#40495c"/>
+      <path id="Path_2180" data-name="Path 2180" d="M0,0H1.134V20.857H0Z" transform="matrix(0.682, -0.731, 0.731, 0.682, 0, 1.813)" fill="#40495c"/>
+      <path id="Path_2172" data-name="Path 2172" d="M15.293,15.713H2.967a.567.567,0,0,1-.5-.822,10.256,10.256,0,0,0,1.072-4.538V8.339a4.538,4.538,0,0,1,.034-.567A.573.573,0,1,1,4.7,7.93a3.4,3.4,0,0,0-.034.408v2a11.384,11.384,0,0,1-.822,4.237H15.293a.567.567,0,0,1,0,1.134Z" transform="translate(-1.197 -0.965)" fill="#40495c"/>
+      <path id="Path_2173" data-name="Path 2173" d="M14.461,11.476a.567.567,0,0,1-.567-.522q-.034-.437-.034-.879v-2a4.538,4.538,0,0,0-6.846-3.9A4.345,4.345,0,0,0,5.55,5.559.57.57,0,1,1,4.6,4.936,5.525,5.525,0,0,1,6.44,3.194a5.672,5.672,0,0,1,8.554,4.878v2a5.938,5.938,0,0,0,.034.777.567.567,0,0,1-.522.624Z" transform="translate(-1.312 -0.698)" fill="#40495c"/>
+    </g>
+  </g>
+</svg>

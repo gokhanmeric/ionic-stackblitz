@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.017" height="17.017" viewBox="0 0 17.017 17.017">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_408" data-name="Rectangle 408" width="17.017" height="17.017" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="status-1" clip-path="url(#clip-path)">
+    <g id="komsuma-gelsin" transform="translate(1.026 1.164)">
+      <g id="Group_353" data-name="Group 353">
+        <rect id="Rectangle_409" data-name="Rectangle 409" width="8.817" height="15.361" transform="translate(8.817 15.361) rotate(180)" fill="none" stroke="#40495c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.981"/>
+        <circle id="Ellipse_60" data-name="Ellipse 60" cx="0.932" cy="0.932" r="0.932" transform="translate(5.87 7.098)" fill="#40495c" stroke="#707070" stroke-width="0.035"/>
+      </g>
+      <g id="Group_355" data-name="Group 355" transform="translate(10.703 2.534)">
+        <g id="Group_354" data-name="Group 354" transform="translate(2.998 2.456)">
+          <path id="Path_2183" data-name="Path 2183" d="M16.614,11.307H15.227a.044.044,0,0,1-.045-.045V5.815a.044.044,0,0,1,.045-.045h1.387a.044.044,0,0,1,.045.045v5.447A.045.045,0,0,1,16.614,11.307Z" transform="translate(-15.183 -5.771)" fill="none" stroke="#40495c" stroke-miterlimit="10" stroke-width="0.981"/>
+        </g>
+        <path id="Path_2184" data-name="Path 2184" d="M11.988,8.169l2.106-4.783a.441.441,0,0,1,.844.178V13.13a.441.441,0,0,1-.844.178L11.988,8.525A.441.441,0,0,1,11.988,8.169Z" transform="translate(-11.951 -3.123)" fill="none" stroke="#40495c" stroke-miterlimit="10" stroke-width="0.981"/>
+      </g>
+    </g>
+  </g>
+</svg>

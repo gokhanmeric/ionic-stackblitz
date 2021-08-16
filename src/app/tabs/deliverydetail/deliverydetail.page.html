@@ -1,0 +1,191 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title>Görev Detay</ion-title>
+		<ion-buttons slot="end">
+			<ion-icon color="primary" size="large" name="notifications-circle-outline">
+			</ion-icon>
+			<ion-badge color="danger badge-one">1</ion-badge>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-grid class="ion-no-padding tasklisting">
+		<ion-col>
+			<ion-list>
+				<!-- task -->
+				<ion-item lines="none" class="ion-no-padding delivery">
+					<ion-grid class="ion-no-padding">
+						<ion-row >
+							<ion-col size="4">
+								<div class="task-info">
+									<div class="task-status">
+										<ion-label>ATANDI</ion-label>	
+									</div>
+									<div class="task-order">1</div>
+								</div>
+								<div class="task-note">TESLİMAT</div>
+								<div class="task-icon">
+									<img src="../assets/svg/status-1.svg">
+									<img src="../assets/svg/status-2.svg">
+									<img src="../assets/svg/status-3.svg">
+									<img src="../assets/svg/status-4.svg">
+									<img src="../assets/svg/status-5.svg">
+									<img src="../assets/svg/status-6.svg">
+									<img src="../assets/svg/status-7.svg">
+									<img src="../assets/svg/status-8.svg">
+								</div>
+							</ion-col>
+							<ion-col size="8">
+							<div class="task-detail">
+								<div class="task-menu">
+									<ion-buttons (click)="presentActionSheet()">
+										<ion-icon name="menu-outline" size="large"></ion-icon>
+									</ion-buttons>
+								</div>
+
+								<div class="task-name">Elif Yüksek Karakaş</div>
+								<div class="task-no">TAKİP NO: TK03224</div>
+								<div class="task-adress">Murat Reis Mahallesi Silahtarbahçe Sk No:40 D.3 Üsküdar/İstanbul</div>
+							</div>
+							</ion-col>
+						</ion-row>
+					</ion-grid>
+				</ion-item>
+				<!-- .task -->	
+			</ion-list>
+		</ion-col>
+	</ion-grid>
+	<ion-grid class="ion-no-padding task-part">
+		<ion-col>
+			<ion-list>
+				<!-- item task -->
+				<ion-item class="ion-no-padding task-item" lines="no">
+				<ion-grid class="ion-no-padding">
+					<ion-row>
+						<ion-col size="2">
+							<div class="task-item-check"><ion-checkbox color="primary"></ion-checkbox></div>
+						</ion-col>
+						<ion-col size="10">
+							<div class="task-link" routerLink="/tabs/deliverymore" routerDirection="forward"></div>
+							<ion-grid class="ion-no-padding">
+								<ion-row class="task-line">
+									<ion-col size="5">Göderi Takip No</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">TK34122</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Müşteri Takip No</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">12312</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">İade Gönderi</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">HAYIR</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Onaylı Adres</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">HAYIR</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Gönderi Tipi</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">PAKET</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Parça Sayısı</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">1</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Toplam Desi</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">12</ion-col>
+								</ion-row>
+								<ion-row class="task-line">
+									<ion-col size="5">Toplam Ağırlık</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">1.5 KG</ion-col>
+								</ion-row>
+								<ion-row class="task-line no-line">
+									<ion-col size="5">Tahsilat Yapıldı mı ?</ion-col>
+									<ion-col size="1">:</ion-col>
+									<ion-col size="6">HAYIR</ion-col>
+								</ion-row>
+							</ion-grid>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-item>
+			<!-- .item task -->
+					<!-- item task -->
+					<ion-item class="ion-no-padding task-item-selected" lines="no">
+						<ion-grid class="ion-no-padding">
+							<ion-row>
+								<ion-col size="2">
+									<div class="task-item-check"><ion-checkbox color="primary"></ion-checkbox></div>
+								</ion-col>
+								<ion-col size="10">
+									<div class="task-link" routerLink="/tabs/deliverymore" routerDirection="forward"></div>
+									<ion-grid class="ion-no-padding">
+										<ion-row class="task-line">
+											<ion-col size="5">Göderi Takip No</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">TK34122</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Müşteri Takip No</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">12312</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">İade Gönderi</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">HAYIR</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Onaylı Adres</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">HAYIR</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Gönderi Tipi</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">PAKET</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Parça Sayısı</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">1</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Toplam Desi</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">12</ion-col>
+										</ion-row>
+										<ion-row class="task-line">
+											<ion-col size="5">Toplam Ağırlık</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">1.5 KG</ion-col>
+										</ion-row>
+										<ion-row class="task-line no-line">
+											<ion-col size="5">Tahsilat Yapıldı mı ?</ion-col>
+											<ion-col size="1">:</ion-col>
+											<ion-col size="6">HAYIR</ion-col>
+										</ion-row>
+									</ion-grid>
+								</ion-col>
+							</ion-row>
+						</ion-grid>
+					</ion-item>
+					<!-- .item task -->
+			</ion-list>
+		</ion-col>
+	</ion-grid>
+
+</ion-content>

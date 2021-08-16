@@ -1,0 +1,56 @@
+<ion-content center text-center>
+  <div id="login">
+    <br>
+    <br>
+
+    <ion-col id="login-panel">
+      <div class="ion-text-center">
+        <img src="../assets/icon/pin-ico.svg">
+      </div>
+    </ion-col>
+
+
+    <div class="div_general">
+      <div class="div_mayor">
+        <ion-list no-lines>
+          <ion-item lines="none">
+            <ion-label position="stacked">Kullanıcı Adı / Email</ion-label>
+            <ion-row>
+              <ion-col size="1">
+                <ion-icon name="person-outline"></ion-icon>
+              </ion-col>
+              <ion-col size="11">
+                <ion-input type="text"></ion-input>
+              </ion-col>
+            </ion-row>
+          </ion-item>
+        </ion-list> 
+        <br>
+<ion-list>
+          <ion-item lines="none">
+            <ion-label position="stacked">Şifre</ion-label>
+            <ion-row>
+              <ion-col size="1">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+              </ion-col>
+              <ion-col size="11">
+                <ion-input type="password"></ion-input>
+              </ion-col>
+            </ion-row>
+          </ion-item>
+          <ion-button color="success" expand="block" (click)="onLogin()">Login</ion-button>
+
+        </ion-list>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+</ion-content>

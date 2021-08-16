@@ -1,0 +1,44 @@
+#login{
+    background-color:#F5F6F8;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+
+#login-panel {
+    width: 90%;
+}
+
+ion-content {
+    width: 100% auto !important;
+}
+img{
+    display:block;
+    margin:auto;
+    }
+
+.div_mayor{
+    margin-bottom: 20px;
+    width:auto;
+    margin:auto;
+    height: 200px auto;
+    
+    padding: 30px;
+    border-radius: 10px;
+    ion-button {
+        height: 45px;
+        margin-top: 10px !important;
+    }
+    ion-list {
+        background-color:#F5F6F8;
+        ion-item{
+            border:0!important;
+            border-style: none!important;
+            border-radius: 10px;
+            border:0!important;
+            ion-input {
+                border:0!important;
+            }     
+        }  
+    }
+}

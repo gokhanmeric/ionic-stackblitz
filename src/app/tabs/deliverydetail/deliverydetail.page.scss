@@ -1,0 +1,401 @@
+:root {
+    .item-inner {
+      padding:0!important;
+    }
+  }
+  
+
+// header
+
+.badge-one {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    font-size: 0.6em;
+    --padding-start: 5px;
+    --padding-end: 5px;
+  }
+  
+  .badge-two {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    font-size: 0.6em;
+    --padding-start: 3px;
+    --padding-end: 3px;
+  }
+
+p {
+    font-size:0.8em;
+}
+
+// Task blank List
+
+.tasklisting {
+    margin-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+  .task-part {
+    margin-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+.task-item {
+    border:1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    padding-top:5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    --inner-padding-end:0!important;
+    .task-line {
+        border-bottom: 1px solid rgb(221, 221, 221);
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .no-line {
+        border:none!important;
+    }
+    .task-link {
+        position: absolute;
+        z-index: 9999;
+        background:transparent;
+        width: 100%;
+        min-height: 100%;
+      }
+    .task-item-check {
+        width: 25px;
+        padding-left: 12px;
+    }
+    ion-checkbox {
+        --size:25px;
+        --min-height:0;
+      }
+}
+
+// Task Selected List
+
+.task-item-selected {
+    border:1px solid orange;
+    border-radius: 10px;
+    padding-top:5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background: rgb(255, 239, 209);
+    --inner-padding-end:0!important;
+    .item-inner {
+        background: rgb(255, 239, 209);
+    }
+    ion-grid {
+        background: rgb(255, 239, 209);
+    }
+    .task-line {
+        border-bottom: 1px solid rgb(221, 221, 221);
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .no-line {
+        border:none!important;
+    }
+    .task-link {
+        position: absolute;
+        z-index: 9999;
+        background:transparent;
+        width: 100%;
+        min-height: 100%;
+      }
+    .task-item-check {
+        width: 25px;
+        padding-left: 12px;
+    }
+    ion-checkbox {
+        --size:25px;
+        --min-height:0;
+      }
+}
+
+// Task Delivery
+
+.delivery {
+    margin-bottom:15px;
+    border:1px solid orange;
+    border-radius: 10px;
+    font-size:12px;
+    --inner-padding-end:0!important;
+    .task-note {
+      padding:5px 0 5px 5px;
+      background: rgb(248, 223, 176);
+    }
+    .task-icon {
+      padding:5px;
+      margin-top:-1px;
+      background: rgb(248, 223, 176);
+      border-radius:0 0 0 10px;
+      min-height: 100%;
+      img {
+        padding: 0 5px 5px 0;
+      }
+    }
+    .task-detail {
+      .task-menu {
+        position: absolute;
+        right: 0;
+        z-index: 99999;
+        border-radius:0 10px 0 10px;
+        background: rgb(248, 223, 176);
+        ion-buttons {
+          padding:5px;
+          ion-icon {
+            color:rgb(182, 118, 1);
+          }
+        }
+      }
+      .task-link {
+        position: absolute;
+        z-index: 9999;
+        background: transparent;
+        width: 80%;
+        min-height: 100%;
+      }
+      .task-name {
+        font-size:18px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-no {
+        font-size:12px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-adress {
+        font-size:13px;
+        font-style: italic;
+        padding: 7px;
+        font-weight: 400;
+        color: rgb(94, 89, 89);
+      }
+  
+    }
+    .task-info {
+      z-index: 9999;
+      background-color:orange;
+      border-radius:10px 0 0 0;
+      color:#FFF;
+      padding: 5px;
+      font-weight: 900;
+      .in-item {
+        margin: 0!important;
+      }
+      .task-check {
+        display: inline-block;
+        width: 25px;
+        padding-left: 5px;
+      }
+      .task-status {
+        display: inline-block;
+        font-size:12px;
+      }
+      .task-order {
+        display: inline-block;
+        padding:5px 3px 3px 5px;
+        margin: -2px -3px 0 0;
+        float: right;
+        background: rgb(133, 102, 2);
+      }
+      ion-checkbox {
+        --size:15px;
+        --min-height:0;
+      }
+    }
+  }
+
+  // Task Finish
+  
+  .delivery-finish {
+    margin-bottom:15px;
+    border:1px solid   rgb(99, 165, 0);
+    border-radius: 10px;
+    font-size:12px;
+    --inner-padding-end:0!important;
+    .task-note {
+      padding:5px 0 5px 5px;
+      background:rgb(231, 248, 205);
+    }
+    .task-icon {
+      padding:5px;
+      margin-top:-1px;
+      background:rgb(231, 248, 205);
+      border-radius:0 0 0 10px;
+      min-height: 100%;
+      img {
+        padding: 0 5px 5px 0;
+      }
+    }
+    .task-detail {
+      .task-menu {
+        position: absolute;
+        right: 0;
+        z-index: 99999;
+        border-radius:0 10px 0 10px;
+        background:rgb(231, 248, 205);
+        ion-buttons {
+          padding:5px;
+          ion-icon {
+            color:green;
+          }
+        }
+      }
+      .task-link {
+        position: absolute;
+        z-index: 9999;
+        background: transparent;
+        width: 80%;
+        min-height: 100%;
+      }
+      .task-name {
+        font-size:18px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-no {
+        font-size:12px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-adress {
+        font-size:13px;
+        font-style: italic;
+        padding: 7px;
+        font-weight: 400;
+        color: rgb(94, 89, 89);
+      }
+  
+    }
+    .task-info {
+      z-index: 9999;
+      background-color:rgb(99, 165, 0);
+      border-radius:10px 0 0 0;
+      color:#FFF;
+      padding: 5px;
+      font-weight: 900;
+      .in-item {
+        margin: 0!important;
+      }
+      .task-check {
+        display: inline-block;
+        width: 25px;
+        padding-left: 5px;
+      }
+      .task-status {
+        display: inline-block;
+        font-size:12px;
+      }
+      .task-order {
+        display: inline-block;
+        padding:5px 3px 3px 5px;
+        margin: -2px -3px 0 0;
+        float: right;
+        background-color:rgb(45, 73, 2);
+      }
+      ion-checkbox {
+        --size:15px;
+        --min-height:0;
+      }
+    }
+  }
+  
+
+  // Task Blank
+  
+  .delivery-blank {
+    margin-bottom:15px;
+    border:1px solid   grey;
+    border-radius: 10px;
+    font-size:12px;
+    --inner-padding-end:0!important;
+    .task-note {
+      padding:5px 0 5px 5px;
+      background:rgb(243, 243, 243);
+    }
+    .task-icon {
+      padding:5px;
+      margin-top:-1px;
+      background:rgb(243, 243, 243);
+      border-radius:0 0 0 10px;
+      min-height: 100%;
+      img {
+        padding: 0 5px 5px 0;
+      }
+    }
+    .task-detail {
+      .task-menu {
+        position: absolute;
+        right: 0;
+        z-index: 99999;
+        border-radius:0 10px 0 10px;
+        background:rgb(243, 243, 243);
+        ion-buttons {
+          padding:5px;
+          
+        }
+      }
+      .task-link {
+        position: absolute;
+        z-index: 9999;
+        background: transparent;
+        width: 80%;
+        min-height: 100%;
+      }
+      .task-name {
+        font-size:18px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-no {
+        font-size:12px;
+        padding: 7px;
+        font-weight: 600;
+      }
+      .task-adress {
+        font-size:13px;
+        font-style: italic;
+        padding: 7px;
+        font-weight: 400;
+        color: rgb(94, 89, 89);
+      }
+  
+    }
+    .task-info {
+      z-index: 9999;
+      background:grey;
+      border-radius:10px 0 0 0;
+      color:#FFF;
+      padding: 5px;
+      font-weight: 900;
+      .in-item {
+        margin: 0!important;
+      }
+      .task-check {
+        display: inline-block;
+        width: 25px;
+        padding-left: 5px;
+      }
+      .task-status {
+        display: inline-block;
+        font-size:12px;
+      }
+      .task-order {
+        display: inline-block;
+        padding:5px 3px 3px 5px;
+        margin: -2px -3px 0 0;
+        float: right;
+        background-color:rgb(45, 73, 2);
+      }
+      ion-checkbox {
+        --size:15px;
+        --min-height:0;
+      }
+    }
+  }
