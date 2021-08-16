@@ -49,7 +49,7 @@
  *  with the following flag, it will bypass `zone.js` patch for IE/Edge
  *
  *  (window as any).__Zone_enable_cross_context_check = true;
- *
+ * Gökhan Meriç
  */
 
 import './zone-flags.ts';
